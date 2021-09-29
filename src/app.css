@@ -1,0 +1,173 @@
+
+
+.menu {
+	margin-top: 30px;
+}
+
+
+.img-logo {
+	width: 150px;
+	height: 31px;
+	float: right;
+}
+
+
+button {
+	padding: 4px 15px;
+	font-size:  14px;
+	border-radius: 2px;
+	height: 32px ;
+	font-family: shabnam;
+}
+
+
+
+.login {
+	font-family: shabnam;
+	background-color: #51c5a8;
+	color: #fff;
+	border-color: #51c5a8;
+	border: 1px;
+	text-align: center;
+	position: relative;
+}
+
+
+.Download{
+	font-family: shabnam;
+	position: relative;
+	text-align: center;
+	border: 1px solid transparent;
+	border-color: lightgray;
+	color: rgba(0, 0, 0, 0.65);
+	font-size: 14px;
+	margin-left: 3px;
+	background-color: white;
+}
+
+
+
+.background-img {
+	background-image: url(./img/4.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 760px;
+}
+
+
+.text-bold {
+	font-family: shabnam;
+	color: #51c5a8;
+    margin: 10px 0;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+.text {
+	font-family: shabnam;
+	color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+.login-btn {
+	color: #51c5a8;
+	background-color: #fff;
+    margin: 10px 0;
+    padding: 0 48px;
+    font-size: 12px;
+    box-shadow: none;
+    font-weight: bold;
+	border: 1px solid #51c5a8;
+	border-radius: 4px;
+	font-family: shabnam;
+}
+
+.social {
+	margin-top: 60px;
+	top: 30vh;
+	left: 40px;
+	position: fixed;
+	float: left;	
+}
+
+
+.background-pc {
+	width: 80%;
+
+}
+
+
+.card {
+	width: 120px;
+	height: 150px;
+	border: 1px solid #F3F3F3 ;
+	margin: 8px 2px;
+	font-size: 12px;
+	align-items: center;
+	border-radius: 8px;
+	flex-direction: column;
+	justify-content: center;
+	flex-grow: 0px;
+}
+
+
+.card:hover {
+	background-color: rgb(203, 240, 255);
+	color: rgba(0, 0, 0, 0.65);
+}
+
+
+.social-img {
+	margin-bottom: 20px;
+}
+
+
+.center-mt{
+	margin-top: 140px;
+}
+
+
+
+.img-little {
+	height: 56px;
+	float: right;
+}
+
+
+.img-big {
+	height: 310PX;
+	float: right;
+}
+
+
+.img-left {
+	height: 310px;
+	float: left;
+}
+
+
+.background-img-green {
+	background-image: url(img/5.jpg);
+	background-repeat: no-repeat;
+	height: 460px;
+    margin: 80px 0;
+    display: flex;
+    min-height: 100px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center 88%;
+}
+
+.text-green {
+	color: white;
+	font-size: 56px;
+	font-family: shabnam;
+}

@@ -1,4 +1,5 @@
 import react from "react";
+import './app.css';
 
 
 class BackgroundGreen extends react.Component {
@@ -10,3 +11,5 @@ class BackgroundGreen extends react.Component {
         );
     }
 }
+
+export default BackgroundGreen;

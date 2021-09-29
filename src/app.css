@@ -153,6 +153,7 @@ button {
 .background-img-green {
 	background-image: url(./img/background-green.jpg);
 	background-repeat: no-repeat;
+	background-size: cover;
 	height: 460px;
     margin: 80px 0;
     display: flex;
@@ -160,7 +161,6 @@ button {
     text-align: center;
     align-items: center;
     flex-direction: column;
-    background-size: cover;
     justify-content: center;
     background-repeat: no-repeat;
     background-position: center 88%;

@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import MenuBar from './menu-bar';
-import TextCenter from "./TextCenter"
+import MenuBar from './app';
+import TextCenter from "./text-center"
 
 
 ReactDOM.render(

@@ -1,6 +1,6 @@
 import react from 'react';
 import './app.css';
-import TextCenter from './TextCenter';
+import TextCenter from './text-center';
 import Pc from './pc'
 
 

@@ -5,6 +5,7 @@ import Pc from './pc'
 import Neighbourhood from './neighbourhood-text';
 import BackgroundGreen from './cooche-background-green';
 import Privacy from './privacy ';
+import Footer from './footer';
 
 
 class MenuBar extends react.Component {
@@ -29,6 +30,7 @@ class MenuBar extends react.Component {
 				<Neighbourhood/>
 				<BackgroundGreen/>
 				<Privacy/>
+				<Footer/>
     		</react.Fragment>
 		)
 	}

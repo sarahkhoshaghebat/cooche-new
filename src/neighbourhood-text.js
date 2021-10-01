@@ -11,57 +11,57 @@ import neighbourhood_small from './img/neighbourhood_small.png';
 class Neighbourhood extends react.Component{
     render() {
         return (
-            <div class="container center-mt">
-			<div class="row align-items-center mt-3 d-flex flex-row-reverse">
-				<div class="col-md-6 d-flex justify-content-center">
-					<img src={location} class="img-big ml-md-5"/>
+            <div className="container center-mt">
+			<div className="row align-items-center mt-3 d-flex flex-row-reverse">
+				<div className="col-md-6 d-flex justify-content-center">
+					<img src={location} className="img-big ml-md-5"/>
 				</div>
-				<div class="col-md-6">
-					<div class="row row-cols-1">
-						<div class="col d-flex justify-content-center justify-content-md-end">
-							<img src={location_small} class="img-little mb-3"/>
+				<div className="col-md-6">
+					<div className="row row-cols-1">
+						<div className="col d-flex justify-content-center justify-content-md-end">
+							<img src={location_small} className="img-little mb-3"/>
 						</div>
-						<div class="col d-flex justify-content-center justify-content-md-end">
-							<h3 class="text-right text-bold">هر جایی یه داستانی داره</h3>
+						<div className="col d-flex justify-content-center justify-content-md-end">
+							<h3 className="text-right text-bold">هر جایی یه داستانی داره</h3>
 						</div>
-						<div class="col ">
-							<p class="text text-right mt-2">می‌تونین در هر نقطه‌ای، پستی رو با دیگران به اشتراک بذارید. توی «کوچه» مکان‌ها نقاط اشتراک ما هستند. هر مکانی می‌تونه نقطه‌ای بشه برای ارتباط</p>
+						<div className="col ">
+							<p className="text text-right mt-2">می‌تونین در هر نقطه‌ای، پستی رو با دیگران به اشتراک بذارید. توی «کوچه» مکان‌ها نقاط اشتراک ما هستند. هر مکانی می‌تونه نقطه‌ای بشه برای ارتباط</p>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="row align-items-center mt-5">
-				<div class="col-md-6 d-flex justify-content-center">
-					<img src={home} class="img-left mr-md-5"/>
+			<div className="row align-items-center mt-5">
+				<div className="col-md-6 d-flex justify-content-center">
+					<img src={home} className="img-left mr-md-5"/>
 				</div>
-				<div class="col-md-6">
-					<div class="row row-cols-1">
-						<div class="col d-flex justify-content-center justify-content-md-end">
-							<img src={home_small} class="img-little mb-3"/>
+				<div className="col-md-6">
+					<div className="row row-cols-1">
+						<div className="col d-flex justify-content-center justify-content-md-end">
+							<img src={home_small} className="img-little mb-3"/>
 						</div>
-						<div class="col d-flex justify-content-center justify-content-md-end">
-							<h3 class="text-right text-bold">هر محله پر از سورپرایزه</h3>
+						<div className="col d-flex justify-content-center justify-content-md-end">
+							<h3 className="text-right text-bold">هر محله پر از سورپرایزه</h3>
 						</div>
-						<div class="col d-flex justify-content-center justify-content-md-end">
-							<p class="text text-right mb-2">محله‌ها پر از اخبار، اتفاقات، خاطرات، رویدادها و خدماتی هستند که باید به کمک شما به اشتراک گذاشته و دیده بشن</p>
+						<div className="col d-flex justify-content-center justify-content-md-end">
+							<p className="text text-right mb-2">محله‌ها پر از اخبار، اتفاقات، خاطرات، رویدادها و خدماتی هستند که باید به کمک شما به اشتراک گذاشته و دیده بشن</p>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="row align-items-center mt-5 d-flex flex-row-reverse">
-				<div class="col-md-6 d-flex justify-content-center justify-content-md-end">
-					<img src={neighbourhood_img} class="img-big ml-md-5"/>
+			<div className="row align-items-center mt-5 d-flex flex-row-reverse">
+				<div className="col-md-6 d-flex justify-content-center justify-content-md-end">
+					<img src={neighbourhood_img} className="img-big ml-md-5"/>
 				</div>
-				<div class="col-md-6">
-					<div class="row row-cols-1">
-						<div class="col d-flex justify-content-center justify-content-md-end">
-							<img src={neighbourhood_small} class="img-little mb-3 mt-3"/>
+				<div className="col-md-6">
+					<div className="row row-cols-1">
+						<div className="col d-flex justify-content-center justify-content-md-end">
+							<img src={neighbourhood_small} className="img-little mb-3 mt-3"/>
 						</div>
-						<div class="col d-flex justify-content-center justify-content-md-end">
-							<h3 class="text-right text-bold">از محله‌ فراتر برو</h3>
+						<div className="col d-flex justify-content-center justify-content-md-end">
+							<h3 className="text-right text-bold">از محله‌ فراتر برو</h3>
 						</div>
-						<div class="col d-flex justify-content-center justify-content-md-end">
-							<p class="text-right text mt-2">شهر با کوچه‌ها زنده‌ست. با «کوچه» می‌شه از محله‌ها فراتر رفت و شهر رو با داستان‌ها و اونچه در اون می‌گذره دید</p>
+						<div className="col d-flex justify-content-center justify-content-md-end">
+							<p className="text-right text mt-2">شهر با کوچه‌ها زنده‌ست. با «کوچه» می‌شه از محله‌ها فراتر رفت و شهر رو با داستان‌ها و اونچه در اون می‌گذره دید</p>
 						</div>
 					</div>
 				</div>

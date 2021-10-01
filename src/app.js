@@ -4,6 +4,7 @@ import TextCenter from './text-center';
 import Pc from './pc'
 import Neighbourhood from './neighbourhood-text';
 import BackgroundGreen from './cooche-background-green';
+import Privacy from './privacy ';
 
 
 class MenuBar extends react.Component {
@@ -27,6 +28,7 @@ class MenuBar extends react.Component {
 				<Pc/>
 				<Neighbourhood/>
 				<BackgroundGreen/>
+				<Privacy/>
     		</react.Fragment>
 		)
 	}

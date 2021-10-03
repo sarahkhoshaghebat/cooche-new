@@ -1,11 +1,12 @@
 import react from "react";
-import Styles from './style.module.css';
+import './app.css';
+
 
 class BackgroundGreen extends react.Component {
     render() {
         return (
-            <div className={Styles.background-img-green}>
-			    <span className={Styles.text-green}>کوچه‌ها رو با هم بگردیم</span>
+            <div className="background-img-green">
+			    <span class="text-green">کوچه‌ها رو با هم بگردیم</span>
 		    </div>
         );
     }

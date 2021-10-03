@@ -1,5 +1,5 @@
 import react from 'react';
-import styles from './style.module.css';
+import './app.css';
 import location from './img/location .png';
 import location_small from './img/location_small.png';
 import home from './img/home.png';

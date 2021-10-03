@@ -14,7 +14,7 @@ class Pc extends React.Component {
                 <div className="container">
 					<div className="row mt-5">
 						<div className="col d-flex justify-content-center mt-5">
-							<img src={pc} className="background-pc"/>
+							<img src={pc} className="background-pc" alt="Computer"/>
 						</div>
 					</div>
 					<div className="row d-flex justify-content-md-center mt-3">
@@ -32,32 +32,32 @@ class Pc extends React.Component {
 					<div className="row no-gutters d-flex justify-content-center mt-4">
 						<div className="col-md-auto d-flex justify-content-center">
 							<div className="card">
-								<img src={pishro} className="social-img"/>
+								<img src={pishro} className="social-img" alt="social"/>
 								<a href="/post" className="text">اپلیکیشن پیشرو</a>
 							</div>
 						</div>
 						<div className="col-md-auto d-flex justify-content-center">
 							<div className="card">
-								<img src={sibche} className="social-img"/>
-								<a href="" className="text">سیبچه</a>
+								<img src={sibche} className="social-img" alt="social"/>
+								<a href="/#" className="text">سیبچه</a>
 							</div>
 						</div>
 						<div className="col-md-auto d-flex justify-content-center">
 							<div className="card">
-								<img src={android} className="social-img"/>
-								<a href="" className="text">مستقیم اپلیکیشن اندروید</a>
+								<img src={android} className="social-img" alt="social"/>
+								<a href="/#" className="text">مستقیم اپلیکیشن اندروید</a>
 							</div>
 						</div>
 						<div className="col-md-auto d-flex justify-content-center">
 							<div className="card">
-								<img src={google} className="social-img"/>
-								<a href="#" className="text">گوگل پلی</a>
+								<img src={google} className="social-img" alt="social"/>
+								<a href="/#" className="text">گوگل پلی</a>
 							</div>
 						</div>
 						<div className="col-md-auto d-flex justify-content-center">
 							<div className="card">
-								<img src={bazar}className="social-img"/>
-								<a href="#" className="text">کافه بازار</a>
+								<img src={bazar}className="social-img" alt="social"/>
+								<a href="/#" className="text">کافه بازار</a>
 							</div>
 						</div>
 					</div>

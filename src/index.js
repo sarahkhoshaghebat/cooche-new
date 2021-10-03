@@ -9,5 +9,3 @@ ReactDOM.render(
   < MenuBar/>,
   document.getElementById('root')
 );
-
-

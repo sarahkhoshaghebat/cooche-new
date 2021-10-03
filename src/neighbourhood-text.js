@@ -14,12 +14,12 @@ class Neighbourhood extends react.Component{
             <div className="container center-mt">
 			<div className="row align-items-center mt-3 d-flex flex-row-reverse">
 				<div className="col-md-6 d-flex justify-content-center">
-					<img src={location} className="img-big ml-md-5"/>
+					<img src={location} className="img-big ml-md-5" alt="location"/>
 				</div>
 				<div className="col-md-6">
 					<div className="row row-cols-1">
 						<div className="col d-flex justify-content-center justify-content-md-end">
-							<img src={location_small} className="img-little mb-3"/>
+							<img src={location_small} className="img-little mb-3" alt="location"/>
 						</div>
 						<div className="col d-flex justify-content-center justify-content-md-end">
 							<h3 className="text-right text-bold">هر جایی یه داستانی داره</h3>
@@ -32,12 +32,12 @@ class Neighbourhood extends react.Component{
 			</div>
 			<div className="row align-items-center mt-5">
 				<div className="col-md-6 d-flex justify-content-center">
-					<img src={home} className="img-left mr-md-5"/>
+					<img src={home} className="img-left mr-md-5" alt="home"/>
 				</div>
 				<div className="col-md-6">
 					<div className="row row-cols-1">
 						<div className="col d-flex justify-content-center justify-content-md-end">
-							<img src={home_small} className="img-little mb-3"/>
+							<img src={home_small} className="img-little mb-3" alt="home"/>
 						</div>
 						<div className="col d-flex justify-content-center justify-content-md-end">
 							<h3 className="text-right text-bold">هر محله پر از سورپرایزه</h3>
@@ -50,12 +50,12 @@ class Neighbourhood extends react.Component{
 			</div>
 			<div className="row align-items-center mt-5 d-flex flex-row-reverse">
 				<div className="col-md-6 d-flex justify-content-center justify-content-md-end">
-					<img src={neighbourhood_img} className="img-big ml-md-5"/>
+					<img src={neighbourhood_img} className="img-big ml-md-5" alt="neighbourhood"/>
 				</div>
 				<div className="col-md-6">
 					<div className="row row-cols-1">
 						<div className="col d-flex justify-content-center justify-content-md-end">
-							<img src={neighbourhood_small} className="img-little mb-3 mt-3"/>
+							<img src={neighbourhood_small} className="img-little mb-3 mt-3" alt="neighbourhood"/>
 						</div>
 						<div className="col d-flex justify-content-center justify-content-md-end">
 							<h3 className="text-right text-bold">از محله‌ فراتر برو</h3>

@@ -20,7 +20,7 @@ class MenuBar extends react.Component {
 						</div>
 						<div className="col-6 col-sm-6">
 							<a href="/">
-								<img src="/logo.png" className="img-logo mr-md-5" />
+								<img src="/logo.png" className="img-logo mr-md-5" alt="coocheh"/>
 							</a>
 			   			 </div>
 		    		</div>

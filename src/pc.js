@@ -12,17 +12,17 @@ class Pc extends React.Component {
         return(
             <React.Fragment>
                 <div className="container">
-					<div className="row mt-5">
-						<div className="col d-flex justify-content-center mt-5">
+					<div className="row">
+						<div className="col">
 							<img src={pc} className="background-pc" alt="Computer"/>
 						</div>
 					</div>
-					<div className="row d-flex justify-content-md-center mt-3">
+					<div className="row ">
 						<div className="col-sm">
 							<h3 className="text-bold" dir="rtl">«کوچه» رو به همه بازه!</h3>
 						</div>
 					</div>
-					<div className="row d-flex justify-content-md-center mt-3">
+					<div className="row ">
 						<div className="col-sm">
 							<h6 className="text">برای اینکه بتونین کامنت، لایک و یا پست بذارین، کافیه چند دقیقه وقت بذارین و کوچه رو نصب کنین</h6>	
 						</div>

@@ -1,5 +1,5 @@
 import React from "react";
-import './app.css';
+import styles from './style.module.css';
 import pc from "./img/pc.png";
 import pishro from "./img/app-pishro.jpeg";
 import sibche from "./img/sibche.jpeg";
@@ -55,7 +55,7 @@ class Pc extends React.Component {
 							</div>
 						</div>
 						<div className="col-md-auto d-flex justify-content-center">
-							<div className="card">
+							<div className={styles.card}>
 								<img src={bazar}className="social-img"/>
 								<a href="#" className="text">کافه بازار</a>
 							</div>

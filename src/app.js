@@ -1,5 +1,5 @@
 import react from 'react';
-import './app.css';
+import styles from './style.module.css';
 import TextCenter from './text-center';
 import Pc from './pc'
 import Neighbourhood from './neighbourhood-text';

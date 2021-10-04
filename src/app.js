@@ -12,7 +12,7 @@ import Footer from './footer';
 class MenuBar extends react.Component {
     render () {
         return (
-			<react.Fragment>
+			<>
         		<div className="container-fluid menu">
 		   			 <div class="row mb-4">
 						<div class="col-6 col-sm-6">
@@ -32,7 +32,7 @@ class MenuBar extends react.Component {
 				<BackgroundGreen/>
 				<Privacy/>
 				<Footer/>
-    		</react.Fragment>
+    		</>
 		)
 	}
 }

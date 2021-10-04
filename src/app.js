@@ -1,4 +1,5 @@
 import react from 'react';
+import {Route ,Link, BrowserRouter as router} from 'react-router-dom';
 import './app.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import TextCenter from './text-center';
@@ -17,7 +18,7 @@ class MenuBar extends react.Component {
 		   			 <div class="row mb-4">
 						<div class="col-6 col-sm-6">
 							<button type="button" class="login ml-md-4">ورود/ثبت نام</button>
-							<button type="button" class="Download">دانلود</button>
+							<button type="button" onClick={} class="Download">دانلود</button>
 						</div>
 						<div className="col-6 col-sm-6">
 							<a href="/">

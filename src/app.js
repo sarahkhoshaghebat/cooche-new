@@ -1,5 +1,6 @@
 import react from 'react';
 import './app.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import TextCenter from './text-center';
 import Pc from './pc'
 import Neighbourhood from './neighbourhood-text';

@@ -14,8 +14,9 @@ class Register extends Component {
                     <img src={logo} className="card-title"/>
                     <input type="text"></input>
                     <input type="password"></input>
-                    <Link>
-                    </Link>
+                    <Router>
+                        <link to="/forget password">forget password</link>
+                    </Router>
                     <button>ورود</button>
                     <button>قبلا ثبت نام نکرده ام</button>
                 </div>

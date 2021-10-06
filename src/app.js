@@ -1,7 +1,6 @@
 import React ,{ Component } from 'react';
 import './app.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Route,Link,BrowserRouter as router } from 'react-router-dom';
 import TextCenter from './text-center';
 import Pc from './pc'
 import Neighbourhood from './neighbourhood-text';
@@ -19,8 +18,8 @@ class MenuBar extends Component {
         		<div className="container-fluid menu">
 		   			<div class="row mb-4">
 						<div class="col-6 col-sm-6">
-							<button type="button" class="login ml-md-4">ورود/ثبت نام</button>
-							<button type="button" onClick={<Register/>} class="Download">دانلود</button>
+							<button type="button" onClick={Register} class="login ml-md-4">ورود/ثبت نام</button>
+							<button type="button" class="Download">دانلود</button>
 						</div>
 						<div className="col-6 col-sm-6">
 							<a href="/">

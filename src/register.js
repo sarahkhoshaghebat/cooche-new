@@ -1,26 +1,27 @@
 import React ,{ Component } from 'react';
-import { Link } from 'react-router-dom';
 import cardimg from './img/background-home.jpg';
 import logo from './img/logo.png';
 import './app.css';
 
 
-function Register () {
+class Register extends Component {
+    render() {
         return(
             <div className="card">
                 <img src={cardimg} className="img-card-left" alt="homeimg"/>
                 <div className="card-body">
-                    <img src={logo} className="card-title"/>
+                    <img src={logo} className="card-title" alt="home"/>
                     <input type="text"></input>
                     <input type="password"></input>
-                    <a>
-                        <link to="/forget password">forget password</link>
+                    <a href="/#">
+                        forget password
                     </a>
                     <button>ورود</button>
                     <button>قبلا ثبت نام نکرده ام</button>
                 </div>
             </div>
         );
+    }
 }
 
 

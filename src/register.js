@@ -1,11 +1,11 @@
 import React ,{ Component } from 'react';
+import { Link } from 'react-router-dom';
 import cardimg from './img/background-home.jpg';
 import logo from './img/logo.png';
 import './app.css';
 
 
-class Register extends Component {
-    render() {
+function Register () {
         return(
             <div className="card">
                 <img src={cardimg} className="img-card-left" alt="homeimg"/>
@@ -21,7 +21,6 @@ class Register extends Component {
                 </div>
             </div>
         );
-    }
 }
 
 

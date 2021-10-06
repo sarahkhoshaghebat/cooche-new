@@ -1,5 +1,4 @@
 import React ,{ Component } from 'react';
-import { Link } from 'react-router-dom';
 import cardimg from './img/background-home.jpg';
 import logo from './img/logo.png';
 import './app.css';
@@ -14,9 +13,9 @@ class Register extends Component {
                     <img src={logo} className="card-title"/>
                     <input type="text"></input>
                     <input type="password"></input>
-                    <Router>
+                    <a>
                         <link to="/forget password">forget password</link>
-                    </Router>
+                    </a>
                     <button>ورود</button>
                     <button>قبلا ثبت نام نکرده ام</button>
                 </div>

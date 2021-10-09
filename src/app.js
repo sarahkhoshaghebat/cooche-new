@@ -7,7 +7,6 @@ import Neighbourhood from './neighbourhood-text';
 import BackgroundGreen from './cooche-background-green';
 import Privacy from './privacy ';
 import Footer from './footer';
-import Register from './register'
 import logo from './img/logo.png';
 
 
@@ -16,10 +15,10 @@ class MenuBar extends Component {
         return (
 			<>
         		<div className="container-fluid menu">
-		   			<div class="row mb-4">
-						<div class="col-6 col-sm-6">
-							<button type="button" onClick={Register} class="login ml-md-4">ورود/ثبت نام</button>
-							<button type="button" class="Download">دانلود</button>
+		   			<div className="row mb-4">
+						<div className="col-6 col-sm-6">
+							<button type="button" data-bs-toggle="register" data-bs-target="#myRegister" className="login ml-md-4">ورود/ثبت نام</button>
+							<button type="button" className="Download">دانلود</button>
 						</div>
 						<div className="col-6 col-sm-6">
 							<a href="/">

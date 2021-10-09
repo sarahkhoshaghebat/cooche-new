@@ -5,8 +5,8 @@ import './app.css';
 class Privacy extends react.Component {
     render () {
         return(
-            <div class="container-fluid Privacy">
-                <div class="row row-cols-1 px-5">
+            <div className="container-fluid Privacy">
+                <div className="row row-cols-1 px-5">
                     <div className="col-md-6">
                         <div className="row">
                             <div className="col-md">

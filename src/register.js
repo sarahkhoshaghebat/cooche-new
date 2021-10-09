@@ -7,19 +7,11 @@ import './app.css';
 class Register extends Component {
     render() {
         return(
-            <div className="card">
-                <img src={cardimg} className="img-card-left" alt="homeimg"/>
-                <div className="card-body">
-                    <img src={logo} className="card-title" alt="home"/>
-                    <input type="text"></input>
-                    <input type="password"></input>
-                    <a href="/#">
-                        forget password
-                    </a>
-                    <button>ورود</button>
-                    <button>قبلا ثبت نام نکرده ام</button>
-                </div>
-            </div>
+           <div className="modal">
+               <div className="modal-dialog">
+                    <img src={logo} />
+               </div>
+           </div>
         );
     }
 }

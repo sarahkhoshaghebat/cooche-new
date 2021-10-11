@@ -240,3 +240,95 @@ button {
     font-size: 14px;
     text-align: center;
 }
+
+/*modal css */
+
+.modal-size {
+	height: 620px;
+}
+
+.column-right{
+	margin-right: 40px;
+}
+
+.img-left-modal {
+	background-image: url(./img/img-home.jpg);
+	height: 617px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.logo-modal {
+	width: 160px;
+	height: 40px;
+}
+
+
+.forget-password {
+	text-decoration: none;
+	color: #51c5a8;
+	font-family: shabnam;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+
+.forget-password:hover{
+	color:rgba(0, 0, 0, 0.65);
+}
+
+
+.text-title-modal {
+	font-family: shabnam;
+	color: #51c5a8;
+	margin-top: 20px;
+}
+
+.text-modal {
+	color:rgba(0, 0, 0, 0.65);
+	font-family: shabnam;
+
+}
+
+.inp-modal {
+	height: 35px;
+	width: 355px;
+	border: 1PX solid rgba(0, 0, 0, 0.65);
+}
+
+
+.btn-modal-login {
+	margin-top: 20px;
+	width: 355px;
+	height: 35px;
+	font-family: shabnam;
+	font-size: 14px;
+	background-color: #51c5a8;
+	color: #fff;
+	border-color: #51c5a8;
+	text-align: center;
+	position: relative;
+
+}
+
+.btn-modal{
+	text-align: center;
+	position: relative;
+	background-color: white;
+	width: 355px;
+	height: 35px;
+	font-family: shabnam;
+	font-size: 14px;
+	color:rgba(0, 0, 0, 0.65);
+	border-color: rgba(0, 0, 0, 0.65);
+
+
+}
+
+.btn-close {
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+/**/

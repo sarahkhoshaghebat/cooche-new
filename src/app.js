@@ -28,7 +28,6 @@ class MenuBar extends Component {
 			   			</div>
 		    		</div>
 	    		</div>
-
 				<TextCenter/>
 				<Pc/>
 				<Neighbourhood/>
